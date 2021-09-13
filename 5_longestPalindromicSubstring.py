@@ -7,7 +7,6 @@ max = s[0]
 for i in range(0, len(s)):
     temp.append([])
     temp[i] = [False] * len(s)
-
 for i in range(0, len(temp)):
     temp[i][i] = True
 for i in range(1, len(temp)):
@@ -22,5 +21,4 @@ for i in range(length-2, -1, -1):
             temp[i][j] = True
             if(len(max) < len(s[i:j+1])):
                 max = s[i:j+1]
-
 print(max)
