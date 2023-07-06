@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.html": "html",
+    "vector": "cpp",
+    "xstring": "cpp",
+    "map": "cpp"
+  }
+}
